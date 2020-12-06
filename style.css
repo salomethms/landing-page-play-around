@@ -1,0 +1,174 @@
+body{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 17px;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1em;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1em;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.container-general {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 30px auto;
+
+}
+
+.container-img {
+
+}
+
+.container-img img{
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.container-texte {
+  flex-basis: 50%;
+}
+
+.logo-play {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.logo-play img{
+  width: 20%;
+}
+
+.texte1 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.boutton a{
+  background-color : red;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+.boutton a:hover {
+  background-color : #ffffff;
+  color: red;
+  border: solid 2px red;
+}
+
+.boutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.textes-x3 {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.textes {
+  flex-basis: 25%;
+  border-radius: 5px;
+  padding: 30px 0px;
+  border: solid 2px red;
+}
+
+.textes p{
+  padding: 0px 45px;
+}
+
+.banniere {
+  margin-top: 50px;
+}
+
+.banniere img {
+  max-width: 100%;
+}
+
+
+
+
+@media screen and (max-device-width:770px), screen and (max-width:770px){
+
+a {
+  font-size: 20px;
+}
+
+.container-img {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.container-img img{
+    width: 80%;
+}
+
+.container-texte {
+     flex-grow: 1;
+}
+
+.textes {
+    flex-basis: 80%;
+    margin-top: 40px;
+}
+
+}
+
+
+
+@media screen and (max-device-width:415px), screen and (max-width:415px){
+
+  h1 {
+    font-size: 4.5em;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .textes p {
+  font-size: 23px;
+  }
+
+}
